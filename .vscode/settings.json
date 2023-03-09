@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///home/guddytech/Documents/TheDevOpsSchool/codediode%20react%20cicd/225-github-actions-demo/.github/workflows/deploy.yml"
+    }
+}
