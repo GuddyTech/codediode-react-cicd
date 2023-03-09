@@ -2,8 +2,9 @@
   "dependencies": {
     "ci": "^2.2.0"
   },
-  "scripts": { 
-    "build": "node", 
-    "test": "standard" 
-  } 
+  "scripts": {
+    "test": "jest",
+    "build": "webpack src/app.js -o public/bundle.js",
+    "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting"
+  }
 }
