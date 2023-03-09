@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "ci": "^2.2.0"
-  }
+  },
+  "scripts": { 
+    "build": "tsc", 
+    "test": "standard" 
+  } 
 }
