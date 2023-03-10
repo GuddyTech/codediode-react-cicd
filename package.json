@@ -1,10 +1,20 @@
 {
   "dependencies": {
-    "ci": "^2.2.0"
+    "ci": "^2.2.0",
+    "file-loader": "^6.2.0",
+    "path": "^0.12.7",
+    "stream": "^0.0.2"
+  },
+  "browser": {
+    "path": false,
+    "stream": false
   },
   "scripts": {
-    
-   "build": "webpack --mode=production webpack.config.js",
-   "start": "webpack-dev-server --mode=development webpack.config.js"
+    "build": "webpack --mode=production webpack.config.js",
+    "start": "webpack-dev-server --mode=development webpack.config.js",
+    "FIXFIX": "webpack --progress --profile --colors --display-error-details --display-cached"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
   }
 }
